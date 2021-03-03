@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 * {
   margin: 0px;
@@ -174,10 +174,6 @@ body {
   cursor: grabbing;
 }
 
-.grabbing .banner-image img {
-  transform: scale(0.9);
-}
-
 .banner-btns {
   display: flex;
   border-bottom: 1px solid lightgray;
@@ -315,18 +311,20 @@ body {
 .card > h5 {
   color: #757575;
   margin: 5px 0;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 .card > p {
   margin: 5px 0 10px 0;
   color: #175cbe;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .card > p > del {
   color: gray;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
 }
 
@@ -545,6 +543,7 @@ body {
 .row-left > p {
   margin: 30px 0 40px 0;
   color: gray;
+  font-size: 18px;
 }
 
 .row-left > button {
