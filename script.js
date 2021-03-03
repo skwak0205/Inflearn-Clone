@@ -1,4 +1,4 @@
-const slider = document.querySelector('.banner-image'),
+const slider = document.querySelector('.banner-images'),
   slides = Array.from(document.querySelectorAll('.slide'));
 
 let isDragging = false,

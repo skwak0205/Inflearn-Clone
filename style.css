@@ -9,6 +9,7 @@
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -144,7 +145,7 @@ body {
   border: 1px solid lightgray;
 }
 
-.banner-image {
+.banner-images {
   display: inline-flex;
   overflow: hidden;
   transform: translateX(0);
@@ -591,11 +592,11 @@ body {
   margin-top: 10px;
 }
 
-.content-pic {
+/* .bottom-slide img {
   object-fit: contain;
-  margin-top: 20px;
   width: 100%;
-}
+  margin-top: 20px;
+} */
 
 .row-sixth {
   background-color: #f9f9f9;
