@@ -43,8 +43,8 @@ body {
 
 .dropdown .dropbtn,
 .dropdowns button {
-  font-size: 13pt;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   border: none;
   outline: none;
   padding: 14px 16px;
@@ -63,7 +63,7 @@ body {
 }
 
 .dropdown-content > a {
-  font-size: 10pt;
+  font-size: 14px;
   float: none;
   color: black;
   padding: 12px 16px;
@@ -93,7 +93,7 @@ body {
   border: none;
   height: 35px;
   width: 180px;
-  font-size: 16pt;
+  font-size: 20px;
   padding-left: 10px;
   border-radius: 5px;
 }
@@ -125,7 +125,7 @@ body {
   color: black;
   padding: 5px 7px;
   margin-left: 10px;
-  font-size: 13pt;
+  font-size: 16px;
   border-radius: 5px;
   border: 1px solid lightgray;
   cursor: pointer;
@@ -136,7 +136,7 @@ body {
   color: white;
   padding: 5px 7px;
   margin-left: 10px;
-  font-size: 13pt;
+  font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
   border: 1px solid lightgray;
@@ -156,7 +156,7 @@ body {
 }
 
 .banner-btn > button {
-  font-size: 12pt;
+  font-size: 16px;
   color: white;
   padding: 10px 20px;
   margin-left: 30px;
@@ -172,7 +172,7 @@ body {
 }
 
 .btn {
-  font-size: 12pt;
+  font-size: 16px;
   font-weight: 600;
   background-color: white;
   padding: 5px 15px;
@@ -228,7 +228,7 @@ body {
 
 .header-input > input::placeholder {
   color: #accdb7;
-  font-size: 12pt;
+  font-size: 16px;
 }
 
 .header-input > input:focus {
@@ -253,7 +253,7 @@ body {
 
 .row-first > a {
   width: 100%;
-  font-size: 20pt;
+  font-size: 26px;
   font-weight: bold;
   background-color: white;
   border: none;
@@ -298,13 +298,13 @@ body {
 .card > p {
   margin: 5px 0 10px 0;
   color: #175cbe;
-  font-size: 16pt;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .card > p > del {
   color: gray;
-  font-size: 14pt;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -330,12 +330,12 @@ body {
 }
 
 .card-meta > p {
-  font-size: 10pt;
+  font-size: 14px;
   margin-top: 10px;
 }
 
 .meta-tags {
-  font-size: 8pt;
+  font-size: 12px;
   margin-top: 10px;
 }
 
@@ -371,7 +371,7 @@ body {
 
 .row-second > a {
   width: 100%;
-  font-size: 20pt;
+  font-size: 26px;
   font-weight: bold;
   background-color: white;
   border: none;
@@ -419,7 +419,7 @@ body {
 
 .row-third > a {
   width: 100%;
-  font-size: 20pt;
+  font-size: 26px;
   font-weight: bold;
   background-color: white;
   border: none;
@@ -443,7 +443,7 @@ body {
 }
 
 .card-third > a > h3 {
-  font-size: 14pt;
+  font-size: 18px;
   margin-top: 20px;
 }
 
@@ -457,7 +457,7 @@ body {
 }
 
 .row-fourth > a {
-  font-size: 20pt;
+  font-size: 26px;
   font-weight: bold;
   background-color: white;
   border: none;
@@ -480,12 +480,12 @@ body {
 }
 
 .fourth-meta > p {
-  font-size: 10pt;
+  font-size: 14px;
   margin-top: 10px;
 }
 
 .fourth-tags {
-  font-size: 8pt;
+  font-size: 12px;
   margin-top: 5px;
 }
 
@@ -513,7 +513,7 @@ body {
 }
 
 .row-left > h1 {
-  font-size: 30pt;
+  font-size: 40px;
 }
 
 .row-left > h1 > span {
@@ -526,7 +526,7 @@ body {
 }
 
 .row-left > button {
-  font-size: 14pt;
+  font-size: 18px;
   background-color: white;
   border-radius: 5px;
   border: 1px solid rgb(29, 192, 120);
@@ -553,7 +553,7 @@ body {
 }
 
 .review > h4 > span {
-  font-size: 10pt;
+  font-size: 13px;
   color: darkgray;
 }
 
@@ -574,7 +574,7 @@ body {
 
 .row-sixth {
   background-color: #f9f9f9;
-  padding: 50px 40px;
+  padding: 50px;
   margin-top: 20px;
 }
 
@@ -590,7 +590,7 @@ body {
   border-radius: 5px;
   margin-right: 20px;
   width: 100%;
-  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .sixth-card > p {
@@ -613,8 +613,8 @@ body {
 .footer {
   bottom: 0;
   background-color: #303740;
-  padding: 60px 30px;
-  font-size: 10pt;
+  padding: 60px 30px 0 40px;
+  font-size: 14px;
 }
 
 .footer > hr {
@@ -666,7 +666,7 @@ body {
 }
 
 .footer-logo {
-  font-size: 10pt;
+  font-size: 13px;
   font-weight: bold;
   color: lightgray;
   margin-top: 10px;
@@ -680,7 +680,7 @@ body {
 .bottom-left > p {
   margin: 10px 0 5px 40px;
   color: lightgray;
-  font-size: 10pt;
+  font-size: 13px;
 }
 
 .bottom-right {
