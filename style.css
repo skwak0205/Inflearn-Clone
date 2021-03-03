@@ -3,13 +3,12 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Noto Sans KR';
 }
 
-html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Noto Sans KR';
 }
 
 .nav {
@@ -145,11 +144,38 @@ body {
   border: 1px solid lightgray;
 }
 
-.banner > img {
+.banner-image {
+  display: inline-flex;
+  overflow: hidden;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+  cursor: grab;
+}
+
+.slide {
+  max-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.slide > img {
   object-fit: cover;
   width: 100%;
   height: auto;
   margin-top: 65px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.grabbing {
+  cursor: grabbing;
+}
+
+.grabbing .banner-image img {
+  transform: scale(0.9);
 }
 
 .banner-btns {
