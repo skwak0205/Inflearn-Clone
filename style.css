@@ -182,13 +182,6 @@ body {
   cursor: pointer;
 }
 
-.banner-btn button:focus,
-.btn,
-.login,
-.register {
-  outline: none;
-}
-
 .contents {
   position: relative;
   margin: 0 50px;
@@ -535,6 +528,10 @@ body {
   cursor: pointer;
 }
 
+.row-left > button:hover {
+  background-color: #e4f7ef;
+}
+
 .row-right {
   flex: 0.5;
 }
@@ -607,6 +604,15 @@ body {
   border-radius: 50px;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.banner-btn button:focus,
+.btn,
+.login,
+.register,
+.row-left > button,
+.sixth-card > button {
+  outline: none;
 }
 
 /* Footer */
