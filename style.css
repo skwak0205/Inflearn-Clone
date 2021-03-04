@@ -673,12 +673,14 @@ body {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: width 0.5s;
 }
 
 .active,
-.dot:hover {
-  background-color: #717171;
+.dot:focus {
+  width: 40px;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .row-sixth {
@@ -728,7 +730,7 @@ body {
 }
 
 /* Footer */
-.footer {
+footer {
   bottom: 0;
   background-color: #303740;
   padding: 60px 30px 0 40px;
