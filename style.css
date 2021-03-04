@@ -592,10 +592,93 @@ body {
   margin-top: 10px;
 }
 
-.bottom-slide img {
-  object-fit: contain;
-  width: 100%;
-  margin-top: 20px;
+.bottom-banner {
+  position: relative;
+  display: inline-flex;
+  overflow: hidden;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+.bottom-slide {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.bottom-slide > img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.banner-info {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.banner-info > b,
+.banner-info > p {
+  font-size: 20px;
+  font-weight: normal;
+  color: #4d4d4d;
+}
+
+.banner-info > button {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #20c17a;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.slide-btns {
+  position: absolute;
+  left: 67%;
+  bottom: 10%;
+}
+
+.prev,
+.next {
+  border-radius: 5px;
+  background-color: white;
+  padding: 3px 10px;
+  margin-right: 5px;
+  box-shadow: 2x 2px 6px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  cursor: pointer;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.dots {
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  top: -10%;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
 }
 
 .row-sixth {
@@ -727,6 +810,7 @@ body {
 
 .bottom-right > span {
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .no-margin {
