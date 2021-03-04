@@ -597,7 +597,7 @@ body {
   display: inline-flex;
   overflow: hidden;
   transform: translateX(0);
-  transition: transform 0.3s ease-out;
+  transition: transform 1s ease-in;
 }
 
 .bottom-slide {
@@ -610,9 +610,9 @@ body {
   user-select: none;
 }
 
-.bottom-slide > img {
+/* .bottom-slide > img {
   transition: transform 0.3s ease-in-out;
-}
+} */
 
 .banner-info {
   position: absolute;
