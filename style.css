@@ -262,7 +262,7 @@ body {
 .search-icon {
   position: absolute;
   right: 27%;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: x-large;
 }
 
@@ -346,7 +346,7 @@ body {
   display: none;
   position: absolute;
   bottom: 0;
-  height: 98%;
+  height: 99%;
   padding: 5px 5px 0 10px;
   background-color: #0000008f;
   color: white;
