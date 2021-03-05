@@ -789,7 +789,8 @@ footer {
 }
 
 .rp-footer-top,
-.rp-footer-bottom {
+.rp-footer-bottom,
+.rp-bottom-icons {
   display: none;
 }
 
