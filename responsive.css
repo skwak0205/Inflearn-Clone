@@ -224,4 +224,8 @@
     cursor: pointer;
     margin-bottom: 20px;
   }
+
+  .rp-footer-info > button:focus {
+    outline: none;
+  }
 }
