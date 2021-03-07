@@ -603,10 +603,6 @@ section > img {
   user-select: none;
 }
 
-/* .bottom-slide > img {
-  transition: transform 0.3s ease-in-out;
-} */
-
 .banner-info {
   position: absolute;
   top: 50px;
@@ -688,6 +684,7 @@ section > img {
 }
 
 .sixth-card {
+  position: relative;
   background-color: white;
   border: 1px solid lightgray;
   padding: 50px 50px;
@@ -703,6 +700,8 @@ section > img {
 }
 
 .sixth-card > button {
+  position: absolute;
+  bottom: 10%;
   font-size: 18px;
   background-color: #1dc078;
   color: white;
