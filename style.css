@@ -16,22 +16,23 @@ body {
   display: flex;
   align-items: center;
   border-bottom: 1px solid lightgray;
-  box-shadow: 0 1px lightgray;
+  box-shadow: 0 2px 5px lightgray;
   padding: 10px;
   background-color: white;
   width: 100%;
-  height: 50px;
+  height: 40px;
   z-index: 1;
 }
 
 .nav__logo {
-  margin-left: 30px;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
 .logo > img {
   object-fit: contain;
   width: 130px;
-  height: 45px;
+  height: 40px;
 }
 
 .menu-icon {
@@ -42,7 +43,7 @@ body {
   display: flex;
   flex: 1;
   align-items: center;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .dropdown {
@@ -53,7 +54,6 @@ body {
 .dropdown .dropbtn,
 .dropdowns button {
   font-size: 16px;
-  font-weight: 600;
   border: none;
   outline: none;
   padding: 14px 16px;
@@ -178,7 +178,7 @@ section > img {
   object-fit: cover;
   width: 100%;
   height: auto;
-  margin-top: 65px;
+  margin-top: 55px;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -189,18 +189,7 @@ section > img {
 .banner-btns {
   display: flex;
   border-bottom: 1px solid lightgray;
-  padding: 15px;
-}
-
-.banner-btn > button {
-  font-size: 16px;
-  color: white;
-  padding: 10px 20px;
-  margin-left: 30px;
-  margin-right: 20px;
-  border-radius: 30px;
-  border: 1px solid lightgray;
-  background-color: #7f7f7f;
+  padding: 10px;
 }
 
 .banner-btn {
@@ -208,12 +197,23 @@ section > img {
   margin-right: 20px;
 }
 
+.banner-btn > button {
+  font-size: 14px;
+  color: white;
+  padding: 5px 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  background-color: #7f7f7f;
+}
+
 .btn {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   background-color: white;
   padding: 5px 15px;
-  margin: 0 10px;
+  margin-right: 10px;
   border-radius: 30px;
   border: 1px solid lightgray;
   cursor: pointer;
@@ -281,9 +281,12 @@ section > img {
   margin-top: 50px;
 }
 
-.row-first > a {
+.row-first > a,
+.row-second > a,
+.row-third > a,
+.row-fourth > a {
   width: 100%;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -292,12 +295,14 @@ section > img {
   cursor: pointer;
 }
 
-.row-first > a > span {
+.row-first > a > span,
+.row-second > a > span {
   color: red;
   font-size: 14px;
 }
 
-.row-first > p {
+.row-first > p,
+.row-second > p {
   margin-top: 10px;
   color: gray;
 }
@@ -325,20 +330,20 @@ section > img {
 .card > h5 {
   color: #757575;
   margin: 5px 0;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: lighter;
 }
 
 .card > p {
   margin: 5px 0 10px 0;
   color: #175cbe;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 .card > p > del {
   color: gray;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -349,7 +354,7 @@ section > img {
 .tags > span {
   border-radius: 5px;
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 12px;
   margin-right: 5px;
 }
 
@@ -403,27 +408,6 @@ section > img {
   margin-top: 80px;
 }
 
-.row-second > a {
-  width: 100%;
-  font-size: 26px;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.row-second > a > span {
-  color: red;
-  font-size: 14px;
-}
-
-.row-second > p {
-  margin-top: 10px;
-  color: gray;
-}
-
 .cards-second {
   display: flex;
   height: 250px;
@@ -440,29 +424,18 @@ section > img {
 }
 
 .card-second > a > img {
-  object-fit: contain;
   width: 100%;
   height: 65%;
 }
 
 .card-second > a > h4 {
+  font-size: 15px;
   color: black;
-  padding: 20px 30px 0 30px;
+  padding: 20px 20px 0 20px;
 }
 
 .row-third {
   margin-top: 80px;
-}
-
-.row-third > a {
-  width: 100%;
-  font-size: 26px;
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  border: none;
-  cursor: pointer;
 }
 
 .card-third {
@@ -661,7 +634,7 @@ section > img {
 
 .slide-btns {
   position: absolute;
-  left: 67%;
+  left: 60%;
   bottom: 10%;
 }
 
@@ -822,6 +795,7 @@ footer {
 
 .bottom-left {
   flex: 0.8;
+  margin-bottom: 40px;
 }
 
 .bottom-left > p {
@@ -834,7 +808,7 @@ footer {
   flex: 0.2;
   margin: auto;
   padding: 40px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .bottom-right > span {
