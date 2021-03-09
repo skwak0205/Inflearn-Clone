@@ -950,14 +950,11 @@
 
           <div class="rp-footer-top">
             <div class="row">
-              <div class="title">
-                <p>인프런</p>
-                <span>
-                  <i class="fas fa-angle-down"></i>
-                </span>
-              </div>
+              <button class="accordion" onclick="toggleTopAccordion()">
+                인프런
+              </button>
 
-              <ul class="list">
+              <ul class="panel">
                 <li>공지사항</li>
                 <li>인프런 소개</li>
                 <li>인프랩 실Log</li>
@@ -966,14 +963,11 @@
             </div>
 
             <div class="row">
-              <div class="title">
-                <p>고객센터</p>
-                <span>
-                  <i class="fas fa-angle-down"></i>
-                </span>
-              </div>
+              <button class="accordion" onclick="toggleTopAccordion()">
+                고객센터
+              </button>
 
-              <ul class="list">
+              <ul class="panel">
                 <li>자주묻는 질문</li>
                 <li>수료증 확인</li>
                 <li>이용약관</li>
@@ -982,14 +976,11 @@
             </div>
 
             <div class="row">
-              <div class="title">
-                <p>신청하기</p>
-                <span>
-                  <i class="fas fa-angle-down"></i>
-                </span>
-              </div>
+              <button class="accordion" onclick="toggleTopAccordion()">
+                신청하기
+              </button>
 
-              <ul class="list">
+              <ul class="panel">
                 <li>지식공유참여</li>
                 <li>인프런 비즈니스</li>
                 <li>인프런 X 대학교</li>
@@ -1031,7 +1022,7 @@
             <p>개인정보취급방침 이용약관</p>
 
             <div class="rp-footer-info">
-              <button>
+              <button class="accordion-info" onclick="toggleBottomAccordion()">
                 (주)인프랩 사업자 정보 <i class="fas fa-angle-down"></i>
               </button>
 
@@ -1040,6 +1031,7 @@
                 <br />
                 개인정보보호책임자 : 구자유 | 통신판매업 : 2018-성남분당B-0062
                 주소: 성남시 분당구 대왕판교로 660 유스페이스1 301-1호 |
+                <br />
                 이메일:info@inflearn.com
               </p>
 
@@ -1092,6 +1084,7 @@
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="topScript.js"></script>
+    <script src="bottomScript.js"></script>
   </body>
 </html>

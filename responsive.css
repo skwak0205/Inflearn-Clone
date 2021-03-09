@@ -4,10 +4,8 @@
   .search,
   .nav__right > a,
   .banner-btns,
-  .list,
   .footer > hr,
   .bottom-left,
-  .rp-footer-detail,
   .bottom-right,
   .no-display {
     display: none;
@@ -184,22 +182,42 @@
   }
 
   .row {
-    padding: 20px 0;
+    padding-top: 15px;
     border-bottom: 2px solid #3f4143;
   }
 
-  .title {
-    display: flex;
-    align-items: center;
+  .accordion {
+    background-color: #303740;
     color: white;
     cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: 0.4s;
   }
 
-  .title > span {
-    position: absolute;
-    right: 4%;
+  .panel {
+    color: darkgray;
+    list-style: none;
+    max-height: 0;
+    overflow: hidden;
+    margin-bottom: 5px;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .toggled:after {
+    content: '\2212';
   }
 
   .rp-footer-bottom {
@@ -209,6 +227,7 @@
     margin: auto;
     color: darkgray;
     text-align: center;
+    font-size: 12px;
   }
 
   .rp-footer-bottom > p {
@@ -222,7 +241,8 @@
     border: none;
     color: darkgray;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    transition: 0.4s;
   }
 
   .rp-footer-info > button:focus {
@@ -247,5 +267,13 @@
     font-size: 14px;
     color: gray;
     cursor: pointer;
+  }
+
+  .rp-footer-detail {
+    color: darkgray;
+    max-height: 0;
+    overflow: hidden;
+    margin-bottom: 5px;
+    transition: max-height 0.2s ease-out;
   }
 }
