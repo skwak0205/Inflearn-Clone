@@ -20,12 +20,6 @@
           </a>
         </div>
 
-        <div class="menu-icon">
-          <a>
-            <i class="fas fa-bars fa-2x"></i>
-          </a>
-        </div>
-
         <div class="dropdowns">
           <div class="dropdown">
             <button class="dropbtn">강의</button>
@@ -67,6 +61,30 @@
           <a href="#">지식공유참여</a>
           <button class="login">로그인</button>
           <button class="register">회원가입</button>
+        </div>
+
+        <div id="menu-icon" class="menu-icon">
+          <span onclick="openNav()">&#9776;</span>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+          <button class="closebtn" onclick="closeNav()">&times;</button>
+
+          <input type="text" placeholder="강의/강사명을 입력해주세요" />
+          <span><i class="fas fa-search"></i></span>
+          <hr />
+
+          <div class="sidenav-list">
+            <a href="#">전체</a>
+            <a href="#">개발 • 프로그래밍</a>
+            <a href="#">보안 • 네트워크</a>
+            <a href="#">데이터 사이언스</a>
+            <a href="#">크리에이티브</a>
+            <a href="#">업무 스킬</a>
+            <a href="#">교양 • 학문</a>
+            <a href="#">커리어</a>
+            <a href="#">라이프</a>
+          </div>
         </div>
       </div>
 

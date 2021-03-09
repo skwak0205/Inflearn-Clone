@@ -11,6 +11,17 @@
     display: none;
   }
 
+  .sidenav > input:focus,
+  .closebtn,
+  .rp-footer-info > button:focus {
+    outline: none;
+  }
+
+  .card:hover .card-meta,
+  .card:hover .fourth-meta {
+    display: none;
+  }
+
   .body {
     box-sizing: border-box;
   }
@@ -29,6 +40,65 @@
     position: absolute;
     margin-left: 20px;
     cursor: pointer;
+    transition: margin-left 0.5s;
+  }
+
+  .sidenav {
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    z-index: 100;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .sidenav > input {
+    width: 85%;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .sidenav > input::placeholder {
+    color: darkgray;
+  }
+
+  .sidenav > span {
+    position: absolute;
+    margin-top: 7px;
+    right: 10%;
+  }
+
+  .sidenav > hr {
+    margin-top: 10px;
+  }
+
+  .sidenav-list > a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
   }
 
   .nav__right {
@@ -93,11 +163,6 @@
 
   .tags > span {
     font-size: 12px;
-  }
-
-  .card:hover .card-meta,
-  .card:hover .fourth-meta {
-    display: none;
   }
 
   .card-second > a > h4 {
@@ -243,10 +308,6 @@
     cursor: pointer;
     margin-bottom: 10px;
     transition: 0.4s;
-  }
-
-  .rp-footer-info > button:focus {
-    outline: none;
   }
 
   .rp-bottom-icons {

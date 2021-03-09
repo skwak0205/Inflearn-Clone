@@ -1,3 +1,15 @@
+// Menu
+function openNav() {
+  document.getElementById('mySidenav').style.width = '300px';
+  document.getElementById('menu-icon').style.display = 'none';
+}
+
+function closeNav() {
+  document.getElementById('mySidenav').style.width = '0';
+  document.getElementById('menu-icon').style.display = 'block';
+}
+
+// Top Banner Slide
 const slider = document.querySelector('.banner-images'),
   slides = Array.from(document.querySelectorAll('.slide'));
 
