@@ -208,6 +208,10 @@ section > img {
   background-color: #7f7f7f;
 }
 
+.banner-btn > button > span {
+  cursor: pointer;
+}
+
 .btn {
   font-size: 14px;
   font-weight: 600;
@@ -593,7 +597,7 @@ section > img {
   transition: transform 1s ease-in;
 }
 
-.bottom-slides {
+.bottom-slide {
   position: relative;
   margin-top: 30px;
   display: flex;
@@ -601,6 +605,14 @@ section > img {
   align-items: center;
   justify-content: center;
   user-select: none;
+}
+
+.bottom-slide > img {
+  position: relative;
+  /* object-fit: contain; */
+  vertical-align: middle;
+  width: 100%;
+  height: 200px;
 }
 
 .banner-info {
@@ -630,7 +642,7 @@ section > img {
 
 .slide-btns {
   position: absolute;
-  left: 60%;
+  right: 10%;
   bottom: 10%;
 }
 
@@ -649,8 +661,8 @@ section > img {
 
 .dots {
   position: absolute;
-  left: 35%;
-  bottom: 10%;
+  left: 50%;
+  bottom: 5%;
 }
 
 .dot {

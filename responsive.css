@@ -4,6 +4,7 @@
   .search,
   .nav__right > a,
   .banner-btns,
+  .slide-btns,
   .footer > hr,
   .bottom-left,
   .bottom-right,
@@ -200,7 +201,7 @@
   }
 
   .bottom-slide > img {
-    height: 70%;
+    height: 150px;
   }
 
   .banner-info {
@@ -210,16 +211,11 @@
 
   .banner-info > b,
   .banner-info > p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
-  .slide-btns {
-    display: none;
-  }
-
-  .dots {
-    left: 20%;
-    bottom: 40%;
+  .banner-info > button {
+    font-size: 14px;
   }
 
   .row-sixth {
