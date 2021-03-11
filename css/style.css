@@ -822,6 +822,7 @@ footer {
   margin-top: 30px;
 }
 
+.bottom-right > a > span,
 .bottom-right > span {
   margin-right: 10px;
   cursor: pointer;
