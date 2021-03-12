@@ -90,27 +90,19 @@
 
       <div class="banner">
         <div class="banner-images">
-          <div class="slide">
-            <img src="images/banner01.png" alt="banner01" />
-          </div>
-
-          <div class="slide">
-            <img src="images/banner02.png" alt="banner02" />
-          </div>
-
-          <div class="slide">
-            <img src="images/banner03.png" alt="banner03" />
-          </div>
+          <img src="images/banner01.png" alt="banner01" />
         </div>
 
         <div class="banner-btns">
-          <div class="banner-btn">
+          <div id="bannerBtn" class="banner-btn">
             <button>
-              1/10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <span>&lt;</span> &nbsp; <span>=</span> &nbsp;
-              <span>&gt;</span>
+              <span id="slideNum">1</span>/3
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <span onclick="onPrev()">&lt;</span> &nbsp; <span>=</span> &nbsp;
+              <span onclick="onNext()">&gt;</span>
             </button>
           </div>
+
           <button class="btn">나에게 맞는 강의</button>
           <button class="btn">주간 인프런 #24</button>
           <button class="btn">신규 가입 선물</button>
@@ -855,7 +847,7 @@
 
         <span class="slide-btns">
           <a id="prev" class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a id="prev" class="next" onclick="plusSlides(1)">&#10095;</a>
+          <a id="next" class="next" onclick="plusSlides(1)">&#10095;</a>
         </span>
 
         <div class="dots">

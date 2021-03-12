@@ -13,14 +13,12 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName('bottom-slide');
-
   var dots = document.getElementsByClassName('dot');
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
+
   if (n < 1) {
     slideIndex = 1;
   }
+
   if (n > slides.length) {
     slideIndex = slides.length;
   }
