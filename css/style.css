@@ -156,16 +156,10 @@ section > img {
   width: 100%;
 }
 
-.banner-images {
-  max-height: 540px;
-}
-
 .banner-images > img {
-  object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin-top: 55px;
-  transition: transform 0.3s ease-in-out;
 }
 
 .banner-btns {

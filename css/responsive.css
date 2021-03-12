@@ -3,7 +3,7 @@
   .nav__right > input,
   .search,
   .nav__right > a,
-  .btn,
+  .banner-btns,
   .slide-btns,
   .footer > hr,
   .bottom-left,
@@ -112,29 +112,6 @@
   .login,
   .register {
     font-size: 14px;
-    border: none;
-  }
-
-  .slide > img {
-    margin-top: 55px;
-  }
-
-  .banner-btns {
-    position: absolute;
-    border: none;
-    top: 25%;
-    left: 2%;
-  }
-
-  .banner-btn {
-    border: none;
-  }
-
-  .banner-btn > button {
-    font-size: 12px;
-    color: white;
-    padding: 5px 10px;
-    margin: 0;
     border: none;
   }
 
