@@ -34,6 +34,6 @@ function onNext() {
     count++;
   }
   img.setAttribute('alt', 'banner0' + count);
-  img.setAttribute('src', '../images/banner0' + count + '.png');
+  img.setAttribute('src', 'images/banner0' + count + '.png');
   slideNum.innerHTML = count;
 }
